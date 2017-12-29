@@ -3,30 +3,25 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
-import './index.css'
+// import stylesheet
+import './main.scss';
 
-import Header from './Header'
+// import components
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
       title="Portfolio / Stephanie Zeng"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'The portfolio site of Stephanie Zeng' },
+        { name: 'keywords', content: 'ReactJS, Gatsby' },
       ]}
     />
     <Header />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-      }}
-    >
       {children()}
-    </div>
+    <Footer />
   </div>
 )
 
