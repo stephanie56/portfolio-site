@@ -1,0 +1,63 @@
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: absolute;
+  width: 2rem;
+  height: 1.8rem;
+  right: 1rem;
+  top: 1rem;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: $theme-purple;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: $theme-purple;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: theme-purple;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  // background: red;
+}
+
+.bm-menu-wrap {
+  top: 0;
+}
+
+.menu-item {
+  padding: 0.8em;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}

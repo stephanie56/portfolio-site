@@ -1,4 +1,13 @@
-$bm-burger-dark: #373a47;
+$theme-purple: #412F77;
+$theme-purple-lighter: #5D5771;
+
+@import 'bm-menu';
+
+@mixin gradient-text {
+  background: -webkit-linear-gradient(-45deg, #C293B7, #6456AC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 * {
   margin: 0;
@@ -9,26 +18,52 @@ html {
   font-family: sans-serif;
 }
 
-.container {
-  padding: 0 1rem;
-}
-
 .header {
-  // background: pink;
+  // background: #8fd4d9;
   position: relative;
   padding: 1rem;
   margin-bottom: 2rem;
 
   &__logo {
-    // font-size: 36px;
     text-decoration: none;
-    color: $bm-burger-dark;
     display: inline-block;
     height: 1.4rem;
     font-size: 1.4rem;
-    border: 2px solid #333;
     padding: 0.4rem 0.8rem;
+    @include gradient-text;
+
+
+    span {
+      font-weight: bold;
+    }
   }
+
+  &__navbar {
+    width: 70%;
+    float: right;
+    text-align: right;
+
+    .item {
+      @include gradient-text;
+      text-decoration: none;
+      display: inline-block;
+      padding: 0.4rem 1rem;
+      margin-right: 0.4rem;
+      font-size: 1rem;
+      line-height: 1.4rem;
+      margin-top: 0.4rem;
+    }
+  }
+
+  // @media screen and (max-width: $break-small) {
+  //   width: 100px;
+  //   float: none;
+  // }
+
+  @media screen and (min-width: 1200px) {
+    padding: 2rem 6rem;
+  }
+
 }
 
   /* Position and sizing of burger button */
@@ -42,7 +77,7 @@ html {
 
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
-    background: $bm-burger-dark;
+    background: $theme-purple;
   }
 
   /* Position and sizing of clickable cross button */
@@ -58,15 +93,14 @@ html {
 
   /* General sidebar styles */
   .bm-menu {
-    background: white;
+    background: $theme-purple;
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
-    border: 1px solid black;
   }
 
   /* Morph shape necessary with bubble or elastic */
   .bm-morph-shape {
-    fill: $bm-burger-dark;
+    fill: theme-purple;
   }
 
   /* Wrapper for item list */
@@ -83,7 +117,7 @@ html {
     padding: 0.8em;
     display: block;
     text-decoration: none;
-    color: $bm-burger-dark;
+    color: #fff;
   }
 
   /* Styling of overlay */
