@@ -30,3 +30,11 @@ html {
 /* start commented backslash hack \*/
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
+
+.btn {
+  background-color: $theme-purple;
+  padding: 0.8rem 1.2rem;
+  color: white;
+  border: 1px solid $theme-purple;
+  border-radius: 5px;
+}

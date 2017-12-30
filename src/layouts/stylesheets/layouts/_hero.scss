@@ -1,0 +1,59 @@
+
+
+.hero {
+  background-image: url('http://cdn.magdeleine.co/wp-content/uploads/2014/06/IMG_2983-Edit-1-2-1400x931.jpg');
+  background-size: cover;
+  height: 100vh;
+
+  &::before{
+    background: linear-gradient(45deg, rgba(57, 74, 122, 0.7),rgba(102, 218, 210, 0.7));
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+  }
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: $theme-purple-lighter;
+
+  &__title {
+    margin: 0;
+    font-size: 4em;
+    margin-bottom: 1rem;
+    color: white;
+    z-index: 2;
+  }
+
+  &__subtitle {
+    font-weight: lighter;
+    color: white;
+    z-index: 2;
+  }
+
+  &__cta {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 30rem;
+    padding: 2rem 0px;
+    z-index: 2;
+
+    i.fa {
+      margin-right: 0.4rem;
+    }
+
+    a {
+      margin-right: 1rem;
+      text-decoration: none;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
