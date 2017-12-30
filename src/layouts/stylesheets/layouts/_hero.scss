@@ -53,8 +53,12 @@
       margin-right: 1rem;
       text-decoration: none;
 
+
       &:last-child {
         margin-right: 0;
+        background-color: transparent;
+        border: $theme-purple solid 2px;
+        color: $theme-purple;
       }
     }
   }
