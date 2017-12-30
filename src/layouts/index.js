@@ -4,7 +4,8 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
 // import stylesheet
-import './main.scss';
+import './stylesheets/index.scss';
+import './stylesheets/font-awesome/css/font-awesome.min.css';
 
 // import components
 import Header from '../components/Header';

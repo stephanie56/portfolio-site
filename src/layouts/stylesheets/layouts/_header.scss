@@ -1,0 +1,39 @@
+.header {
+  position: relative;
+  padding: 1rem;
+  margin-bottom: 2rem;
+
+  &__logo {
+    text-decoration: none;
+    display: inline-block;
+    height: 1.4rem;
+    font-size: 1.4rem;
+    padding: 0.4rem 0.8rem;
+    @include gradient-text;
+
+    span {
+      font-weight: bold;
+    }
+  }
+
+  &__navbar {
+    width: 70%;
+    float: right;
+    text-align: right;
+
+    .item {
+      @include gradient-text;
+      text-decoration: none;
+      display: inline-block;
+      padding: 0.4rem 1rem;
+      margin-right: 0.4rem;
+      font-size: 1rem;
+      line-height: 1.4rem;
+      margin-top: 0.4rem;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 2rem 6rem;
+  }
+}

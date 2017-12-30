@@ -31,7 +31,6 @@ module.exports = class HTML extends React.Component {
           />
           {this.props.headComponents}
           {css}
-          <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet" >
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
