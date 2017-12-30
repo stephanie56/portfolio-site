@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 * {
   margin: 0;
   padding: 0;
@@ -32,9 +33,12 @@ html {
 .clearfix { display: block; }
 
 .btn {
-  background-color: $theme-purple;
   padding: 0.8rem 1.2rem;
   color: white;
-  border: 1px solid $theme-purple;
+  border: 1px solid #6456AC;
   border-radius: 5px;
+  background-color: #6456AC;
+  width: 40%;
+  text-align: center;
+  margin: 1rem;
 }

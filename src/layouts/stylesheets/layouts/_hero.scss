@@ -1,12 +1,12 @@
 
 
 .hero {
-  background-image: url('http://cdn.magdeleine.co/wp-content/uploads/2014/06/IMG_2983-Edit-1-2-1400x931.jpg');
+  background-image: url('https://image.freepik.com/free-photo/miniature-people-sitting-on-top-of-keyboard_1252-858.jpg');
   background-size: cover;
   height: 100vh;
 
   &::before{
-    background: linear-gradient(45deg, rgba(57, 74, 122, 0.7),rgba(102, 218, 210, 0.7));
+    background: linear-gradient(45deg, rgba(250, 236, 217, 0.8),rgba(229, 253, 250, 0.8));
     content: '';
     display: block;
     position: absolute;
@@ -23,15 +23,17 @@
 
   &__title {
     margin: 0;
-    font-size: 4em;
+    font-size: 6em;
+    font-family: 'Oswald', sans-serif;
     margin-bottom: 1rem;
-    color: white;
+    // color: white;
     z-index: 2;
+    @include gradient-text;
   }
 
   &__subtitle {
     font-weight: lighter;
-    color: white;
+    color: $theme-purple;
     z-index: 2;
   }
 

@@ -21,6 +21,11 @@ footer {
     padding: 0.4rem 0.8rem;
     color: $theme-purple-lighter;
     float: left;
+
+    span {
+      // font-weight: bold;
+      color: #ECE0CE;
+    }
     @media screen and (max-width: 768px) {
       float: none;
       display: block;
@@ -31,6 +36,7 @@ footer {
   }
 
   .copyright {
+    font-size: 1rem;
     width: 50%;
     float: right;
     text-align: right;
