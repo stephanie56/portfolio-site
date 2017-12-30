@@ -4,4 +4,51 @@ footer {
   color: $theme-purple-lighter;
   font-size: 0.8rem;
   line-height: 1rem;
+
+  .fa {
+    color: $theme-purple-lighter;
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 1rem;
+    margin-right: 0.4rem;
+  }
+
+  .logo {
+    text-decoration: none;
+    display: inline-block;
+    height: 1.4rem;
+    font-size: 1.4rem;
+    padding: 0.4rem 0.8rem;
+    color: $theme-purple-lighter;
+    float: left;
+    @media screen and (max-width: 768px) {
+      float: none;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  }
+
+  .copyright {
+    width: 50%;
+    float: right;
+    text-align: right;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  .icon-group {
+    width: 50%;
+    float: right;
+    text-align: right;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+
 }
