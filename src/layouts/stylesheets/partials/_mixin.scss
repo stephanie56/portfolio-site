@@ -3,3 +3,10 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+@mixin profile-image($width, $color) {
+  width: $width;
+  height: $width;
+  border-radius: 100%;
+  background-color: $color;
+}
