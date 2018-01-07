@@ -1,46 +1,29 @@
-
-
-.intro {
+.section {
   background-color: #fff;
-  color: white;
+  color: $theme-purple-lighter;
   height: 100vh;
 
   display: flex;
   justify-content: center;
   align-items: center;
-  // flex-direction: column;
-
-  &__wrapper {
-    width: 50%;
-    max-width: 500px;
-  }
 
   &__title {
     margin: 0;
-    font-size: 2.6em;
-    // font-family: 'Oswald', sans-serif;
+    font-size: 2.6rem;
     margin-bottom: 2rem;
-    color: $theme-purple-lighter;
+    border: 1px solid red;
   }
 
   &__subtitle {
     font-weight: lighter;
-    color: $theme-purple;
-    z-index: 2;
+    border: 1px solid red;
   }
 
   &__description {
     font-size: 1rem;
     line-height: 1.8rem;
     font-size: lighter;
-    color: $theme-purple-lighter;
+    border: 1px solid red;
   }
 
-  &__profile-image {
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    background-color: red;
-    margin-right: 3rem;
-  }
 }

@@ -26,7 +26,6 @@
     font-size: 6em;
     font-family: 'Oswald', sans-serif;
     margin-bottom: 1rem;
-    // color: white;
     z-index: 2;
     @include gradient-text;
   }
@@ -52,7 +51,6 @@
     a {
       margin-right: 1rem;
       text-decoration: none;
-
 
       &:last-child {
         margin-right: 0;

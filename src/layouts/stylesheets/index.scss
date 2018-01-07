@@ -1,8 +1,11 @@
+@import '../../../node_modules/node-normalize-scss/normalize';
+
+/** FONT STYLES **/
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 $fa-font-path: "~font-awesome/fonts";
 @import "~font-awesome/scss/font-awesome";
 
-@import '../../../node_modules/node-normalize-scss/normalize';
+/** BASE STYLES **/
 @import './partials/variables';
 @import './partials/mixin';
 @import './partials/base';
@@ -10,9 +13,9 @@ $fa-font-path: "~font-awesome/fonts";
 
 /** LAYOUT STYLES **/
 @import './layouts/header';
+@import './layouts/footer';
 
-/** PAGE STYLES **/
-@import './layouts/header';
+
+/** COMPONENT STYLES **/
 @import './layouts/hero';
 @import './layouts/intro';
-@import './layouts/footer';
