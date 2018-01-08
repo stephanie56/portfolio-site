@@ -5,7 +5,6 @@ import Hero from '../components/Hero';
 import Intro from '../components/Intro';
 
 
-import ProfileImage from '../images/profile-image.jpeg';
 
 
 

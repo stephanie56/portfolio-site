@@ -1,11 +1,13 @@
 .section {
   background-color: #fff;
-  color: $theme-purple-lighter;
-  height: 100vh;
+  color: #5b5a59;
+  min-height: 100vh;
+  padding: 1rem 0;
 
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 
   @media screen and (max-width: $break-xs) {
     text-align: center;
@@ -19,20 +21,39 @@
   &__title {
     margin: 0;
     font-size: 2.6rem;
-    margin-bottom: 2rem;
-    border: 1px solid red;
+    color: $theme-purple;
   }
 
   &__subtitle {
     font-weight: lighter;
-    border: 1px solid red;
+    margin-top: 0.2rem;
+    color: $theme-purple;
   }
 
   &__description {
     font-size: 1rem;
     line-height: 1.8rem;
     font-size: lighter;
-    border: 1px solid red;
   }
 
+}
+
+.card-list {
+  text-align: center;
+  margin-top: 3rem;
+
+  .card {
+    padding: 2rem;
+    word-wrap: break-word;
+
+    h2 {
+      color: $theme-purple-lighter;
+    }
+
+    .fa {
+      font-size: 2rem;
+      text-align: center;
+      color: $theme-purple-lighter;
+    }
+  }
 }
