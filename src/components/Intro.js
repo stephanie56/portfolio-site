@@ -14,9 +14,9 @@ const Intro = () => (
         <h1 className="section__title">
             Meet the Developer
         </h1>
-        <h2 className="section__subtitle">Your Development Solution in a Box.</h2>
+        <h2 className="section__subtitle">Your Development Solution in a  Box.</h2>
         <div className="section__description">
-            Stephanie is a Full Stack Front-end Developer specialised in making elegant websites and web apps that help you connect and engage with your customers.
+          At Impact! Media, we believe engagement is best achieved through creating a long-term relationship with your users and stakeholders. We are dedicated to build websites with thoughts of how the users would feel about it. We work hard to create a seamless experience for your users across different devices and browsers.
         </div>
       </Col>
     </Row>
@@ -24,17 +24,17 @@ const Intro = () => (
       <Col className="card" xs={12} sm={4}>
         <i className="fa fa-codepen"></i>
         <h2>User Experience Design</h2>
-        <p>Well-designed apps are just as important as well-built apps.</p>
-      </Col>
-      <Col className="card" xs={12} sm={4}>
-        <i className="fa fa-code"></i>
-        <h2>Front End Development</h2>
-        <p>2 years experience building responsive websites and web applications using HTML, CSS and Javascript.</p>
+        <p>Well-designed apps are just as important as well-built apps!</p>
       </Col>
       <Col className="card" xs={12} sm={4}>
         <i className="fa fa-rocket"></i>
-        <h2>Web Performance</h2>
-        <p>Well-designed apps are just as important as well-built apps.</p>
+        <h2>Front-End Development</h2>
+        <p>We build responsive, high performance websites and web apps that connect you and your customers.</p>
+      </Col>
+      <Col className="card" xs={12} sm={4}>
+        <i className="fa fa-code"></i>
+        <h2>Technologies</h2>
+        <p>ReactJS at the front and NodeJS in the back.</p>
       </Col>
     </Row>
   </Grid>
